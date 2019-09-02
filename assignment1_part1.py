@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[82]:
-
-
 # Create a new function called listDivide that takes in two parameters, a list called numbers 
 # and an integer called divide that defaults to 2
 def listDivide(numbers, divide = 2):
@@ -17,10 +14,6 @@ def listDivide(numbers, divide = 2):
 class ListDivideException(Exception):
     pass
 
-
-# In[83]:
-
-
 # Create another function called testListDivide that performs various tests on ListDivide
 def testListDivide():
     print (listDivide([1,2,3,4,5]) == 2)
@@ -29,15 +22,4 @@ def testListDivide():
     print (listDivide([]) == 0)
     print (listDivide([1,2,3,4,5], 1) == 5)
 
-
-# In[79]:
-
-
 testListDivide()
-
-
-# In[ ]:
-
-
-
-
